@@ -6,7 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-[lib]
-name = "pac"
-path = "lib.rs"
+cortex-m = "0.7.6"
+vcell = "0.1.3"
